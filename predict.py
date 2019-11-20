@@ -111,7 +111,7 @@ if __name__ == "__main__":
     in_files = args.input
     out_files = get_output_filenames(args)
 
-    net = UNet(n_channels=3, n_classes=1)
+    net = UNet(n_channels=2, n_classes=1)
 
     logging.info("Loading model {}".format(args.model))
 
